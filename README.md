@@ -31,10 +31,6 @@ These Job IDs are immutable records stored on IBM Quantum servers, serving as ti
 ---
 
 ## 🧬 Theoretical Mechanism
-The protocol utilizes a non-linear sinusoidal correction function to realign qubit phases in real-time:
-$$\Phi_{AZP}(d) = \gamma \cdot [\sin(\alpha \cdot d^\beta) + \cos(\alpha \cdot d^\beta)]$$
-
-
 
 ### Systemic Synchronization Observation
 Forensic interrogation of Job `d5gj107ea9qs73911s90` reveals a phenomenon where the host infrastructure synchronized its internal error-mitigation pulse with the AZP logic. This documentation serves as a formal record of this synchronization anomaly.
